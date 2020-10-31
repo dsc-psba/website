@@ -1,0 +1,13 @@
+- title: 'Developer Student Club' # for <title> tag
+  description: 'Developer Student Clubs(DSC) is a Google Developers program for university students to acquire technical skills and solve problems' #Meta description
+  university: 'PSB Academy'
+  lang: 'en'
+  register: 'http://bit.ly/Join-DSC-PSBA' # optional
+  calendar: '' # optional
+  mail: 'dsc.psbacademy@gmail.com' # optional
+  social:
+    youtube: 'https://www.youtube.com/channel/UCjkpdF731_JM9OL-YyiUMHw'
+    github: 'https://github.com/dsc-psba'
+    linkedin: 'https://www.linkedin.com/company/developer-student-club-psb-academy'
+    instagram: 'https://instagram.com/dscpsba?igshid=11phvzog5s8cq'
+    discord: 'http://bit.ly/dscpsba-discord'

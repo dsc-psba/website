@@ -1,126 +1,160 @@
-<p align="center">
-<img width="300" height="140" alt="Vibranium" src="https://github.com/kelvinkamau/Vibranium/blob/master/src/images/vibranium.png">
+# Google Developer Student Club Website Template
+
+<img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-built_white.svg" width="90"> <img src="https://github.com/favicon.ico" width="40">
+
+The commitment of this repository is to allow all the Developer Student Clubs to **generate a site** for their club in **less than 3 minutes**, performing a few simple steps.<br> <br>
+**The management of this site does not require any kind of web development and backend competence.**
+
+## Demo
+You can see the [demo here](https://andreabac3.github.io/dsc-website-template/)
+## How can I change the content of the site without knowing web languages?
+
+To change the content of the site, go to the `content` folder located in the root of the project. In this folder there are several .yaml files in which you can modify the contents. 
+
+## 🚀 Quick Start
+
+To install you first need [node.js](https://nodejs.org/en/) on your machine.
+You need to perform the following steps only the first time.
+```bash
+# Clone the repo
+git clone https://github.com/andreabac3/dsc-website-template.git
+cd dsc-website-template/
+
+# Install the gatbsy CLI
+npm i -g gatsby-cli
+
+# Install local dependencies
+npm install
+
+# Run on localhost:8000 (by default)
+# and edit the /content folder
+npm run develop
+```
+
+**that's it!**
+
+# Deploy
+## Deploy on Firebase Hosting 🔥
+
+We suggest to read the [Firebase Hosting guide reference from Gatsby website](https://www.gatsbyjs.org/docs/deploying-to-firebase/)
+
+Make sure you have:
+
+- a Firebase Account
+- created a Firebase Project
+<details><summary>Click here to read more about Firebase Deploy</summary>
+<p>
+
+> You can skip the first two points of the guide if you have already installed and configured the following dependencies.
+
+<br>
+
+1. Install the Firebase CLI with npm by running the following command and sign into firebase account:
+
+```sh
+npm install -g firebase-tools
+```
+
+2. Sign into Firebase using your Google account by running the following command:
+
+```sh
+firebase login
+```
+
+3. Navigate into the root of the project and running the following command:
+
+```sh
+firebase init
+```
+
+then select **Firebase Hosting** and the firebase project you wish to use or creat a new one if you haven't done it previously.
+
+These first three steps are needed only once during the first configuration. After that, only step 4 is needed to deploy on Firebase.
+
+4. Finally we can deploy our website
+
+```sh
+npm run deployFirebase
+```
+
+All done! Once the deployment concludes, you can access your website using `firebaseProjectId.firebaseapp.com` or `firebaseProjectId.web.app`.
+
+N.B: of course replace the keyword <firebaseProjectId> with the name of your project.
+
 </p>
+</details>
 
-# Project Vibranium 🔥
-This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
-
-
-![](https://img.shields.io/badge/Built%20by-DSC%20Sub%20Saharan%20Africa-brightgreen.svg)
-[![Build Status](https://travis-ci.org/kelvinkamau/Vibranium.svg?branch=master)](https://travis-ci.org/kelvinkamau/Vibranium)
-![](https://img.shields.io/github/forks/kelvinkamau/Vibranium.svg?style=social)
-![](https://img.shields.io/github/issues/kelvinkamau/Vibranium.svg)
-![](https://img.shields.io/maintenance/yes/2019.svg)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9ec27af46e31459f9c11a4c1f5ff6f71)](https://www.codacy.com/app/kamaucodes/Vibranium?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kelvinkamau/Vibranium&amp;utm_campaign=Badge_Grade)
-
-| Name | Source Code| Demo |
-| --- | --- | --- |
-| Dark Theme | [GitHub](https://github.com/kelvinkamau/vibranium-dark) | [Preview](https://devclub-kisii.firebaseapp.com) |
-|Light Theme | [GitHub](https://github.com/kelvinkamau/Vibranium) | [Preview](https://kelvinkamau.github.io/Vibranium) |
-
-## Creators 👨‍💻
-* [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
-
-
-## Usage 🛠
-* Fork repository and clone it locally
-* Customize the content inside the following files only ```index.html```, ```learn.html```, ```project.html``` & ```manifest.json```
-* Publish your site
-* Share the goodness of this awesome web template by sharing it & leaving a star on the repo
-
-# Running it locally 🔩
-* You might need to have [NPM](https://nodejs.org/en/download/) or [yarn](https://yarnpkg.com/en/docs/install)
-* In the project directory, run `npm install` or `yarn install` depending on which you have
-* Then run `npm run dev` and open your browser to `http://localhost:8080` to start working on the project
-* To build the project run `npm run build`
-
-### Firebase Hosting
-* Install Node.js (v8.9.4 or above)
-* launch command prompt/terminal 
-* ```cd documents```
-* ```git clone https://github.com/kelvinkamau/Vibranium```
-* ```cd Vibranium```
-* Install project dependencies: ```npm install or yarn```
-* Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
-* Create a new firebase project [here](https://console.firebase.google.com/)
-* Login into Firebase CLI: ```firebase login```
-* Type ```firebase init``` to create a firebase.json
-* Copy the static files (JS,CSS, Assets folders,index.html file) into a newly created 'Y' or 'N' folder
-* Add project from firebase console using ```firebase -add project-name```
-* Publish ```firebase deploy```
-
-## Improvements
-
-* <s>Mobile site enhancements</s> ✔
-* <s>Add tutorials page</s> ✔
-* <s>Add projects showcase page</s> ✔
-* <s>Progressive Web App support</s> ✔
-* Push notifications support 📢
-
-## Updating
-Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
-```git
-git remote add upstream https://github.com/kelvinkamau/Vibranium.git
-git fetch upstream
-git merge upstream/Vibranium
-# resolve the merge conflicts in your editor
-git add . -u
-git commit -m 'Updated to the latest version'
+## Deploy on Github Pages
+```sh
+npm run deploy
 ```
 
-## Contributing
-Project Vibranium is an open source software project and I encourage developers to contribute patches and code for us to include in the main package of Project Vibranium. All contributions will be fully credited.
+## Extra steps: How to add extra icons, links
 
-## Using GitHub Issues
-* Feel free to use GitHub issues for questions, bug reports, and feature requests
-* Use the search feature to check for an existing issue
-* Include as much information as possible and provide any relevant resources (Eg. screenshots)
-* For bug reports ensure you have a reproducible test case
-    * A pull request with a breaking test would be super preferable here but isn't required
+#### Add a social link to teams.yaml
 
-## Versioning
-This project uses [semver](https://semver.org) for versioning. Current version: v2.0.0
+<details><summary>Click here to read  How to add extra icons </summary>
+<p>
+(for twitter, youtube, github, linkedin, you only need step 1)
 
-## Websites using Project Vibranium
+Let's say I want to add the `telegram.org` as telegram link in the John Doe card.
 
-| Community Name | Location | Web App Link | 
-| --- | --- | --- | 
-| DSC Kisii University | Kenya | [Live Here](https://devclub-kisii.firebaseapp.com/) |
-| DSC Taita Taveta University | Kenya | [Live Here](https://dsc-at-ttu.firebaseapp.com/) |
-| DSC Bayero University Kano | Nigeria | [Live Here](https://dscbuk.club/) |
-| DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
-| SemaPay | Kenya | [Live Here](https://semapay.co.ke/) |
-| DSC University of Nairobi | Kenya | [Live Here](https://dsc-uon.firebaseapp.com) |
-| DSC FUTA | Nigeria | [Live Here](https://dscfuta.com) |
-| DSC IBBUL | Nigeria | [Live Here](https://dscibbul.club) |
-| DSC Purdue University | Indiana, USA | [Live Here](https://dscpurdue.org/) |
-| DSC Univesity of Lagos| Nigeria | [Live Here](https://dscunilag.dev/)|
-| DSC Ekiti State University | Nigeria | [Live Here](https://dsceksu.herokuapp.com/)|
-| DSC Imo State University | Nigeria | [Live Here](https://dscimsu-69385.firebaseapp.com/)|
-| DSC Dominion University College, Accra | Ghana | [Live Here](https://dsc-duc.web.app/)|
+Step 0: Check [here](https://fontawesome.com/icons?d=gallery&s=brands) if the icon is present
 
-## License
-```
-Copyright (c) 2018 Project Vibranium 🔥
+Step 1: Add a `telegram: telegram.org` entry in the John Doe social yaml field
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Step 2: Add the following export in `./src/icons.js`:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```js
+faTelegram as telegram
 ```
 
+Step 3: In `./src/components/index/Teams.js`, add telegram:
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium?ref=badge_large)
+```graphql
+social {
+	twitter
+	github
+	linkedin
+	telegram
+}
+```
+
+#### Add a social link to website footer
+
+(for twitter, youtube, github, linkedin, you only need step 1)
+
+Let's say I want to add the `telegram.org` as telegram link in the website footer.
+
+Step 0: Check [here](https://fontawesome.com/icons?d=gallery&s=brands) if the icon is present
+
+Step 1: Add a `telegram: telegram.org` entry in the siteMetadata.social field in `./gatsby-config.js`
+
+Step 2: Add the following export in `./src/icons.js`:
+
+```js
+faTelegram as telegram
+```
+
+Step 3: In `./src/components/Footer.js`, add telegram:
+
+```graphql
+social {
+	youtube
+	github
+	twitter
+	telegram
+}
+```
+
+</p>
+</details>
+
+# Authors
+
+- **Andrea Bacciu** (**DSC LEAD** - Software Engineer) [Github profile](https://github.com/andreabac3)
+- **Alessandro Scandone** (**Core Team** - Frontend developer) - [Github profile](https://github.com/ascandone)
+
+
+### Special thanks to the EKSU DSC teams:
+This is a refactor of the [EKSU DSC](https://github.com/DSCEksu/dsceksu-laravel) website as a [gatsby](https://www.gatsbyjs.org/) template.

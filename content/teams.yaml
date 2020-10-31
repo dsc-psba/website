@@ -1,0 +1,99 @@
+- name: Hajamohideen Shafeek Ahamed
+  role: DSC Lead
+  img: images/teams/shafeek.png
+  descs:
+    - Mobile and Web developer
+    - Open source enthusiast
+    - Community mentor
+  social:
+    github: https://github.com/ShafeekAhd
+    linkedin: https://www.linkedin.com/in/shafeek-ahamed-4b1721b9/
+    twitter: https://twitter.com/9c457ca277aa440
+
+- name: Jia En
+  role: DSC Vice Leader
+  img: images/teams/jiaen.jpeg
+  descs:
+    - Interested in business and data analysis 
+    - I enjoy listening to other people sharing about technology that they’re passionate in.
+  social:
+    github: https://github.com/dsc-psba
+
+- name: Mitan Dymitrio Deevano
+  role: Public Relations Manager
+  img: images/teams/dio.png
+  descs:
+    - Web developer
+    - Tech-creative enthusiast
+    - Music developer
+  social:
+    instagram: https://www.instagram.com/dymitrio_deevano/
+
+- name: Kim Chioh
+  role: Logistics Manager
+  img: images/teams/kimchioh.jpeg
+  descs:
+    - Learning web development
+    - Interested in unmanned delivery and autonomous driving
+    - Love sports
+  social:
+    linkedin: https://www.linkedin.com/in/chioh-kim-6aa1b211a/
+
+- name: Daniel Low
+  role: Admin Manager
+  img: images/teams/daniel.jpeg
+  descs:
+    - Explorer of new devices
+    - Interested in being a cyber security specialist
+  social:
+    linkedin: https://www.linkedin.com/in/dnlowwwww
+
+- name: Ananya Krithika Thyagarajan
+  role: Events/Operations Manager
+  img: images/teams/ananya.jpeg
+  descs:
+    - Keen interest in data science
+    - Love being a part in projects that solve real-world problems
+    - Enthusiastic in business analysis
+  social:
+    twitter: https://twitter.com/Ananya_T98?s=08
+    instagram: https://www.instagram.com/ananya_253/
+
+- name: Timothy Dillan
+  role: Website Manager
+  img: images/teams/timothy.jpeg
+  descs:
+    - Mobile and Web development Enthusiast
+    - Exploring Python
+    - Loves Arduino
+  social:
+    github: https://github.com/timothydillan
+
+- name: Jason
+  role: Finance Manager
+  img: images/teams/jason.jpg
+  descs:
+    - PC builder
+    - Cyber-security enthusiast
+    - Hardcore gamer
+  social:
+    linkedin: https://www.linkedin.com/in/jason-lim-66b239193/
+
+- name: Gabriel
+  role: Staff Mentor
+  img: images/teams/gabriel.jpeg
+  descs:
+    - Community mentor
+    - Staff mentor 
+  social:
+    github: https://github.com/dsc-psba
+
+- name: Ong Chin Ann
+  role: Faculty Advisor
+  img: images/teams/ong.jpeg
+  descs:
+    - Lecturer
+    - IT Program leader
+    - Web Developer and System Developer
+  social:
+    linkedin: https://www.linkedin.com/in/ongca/
